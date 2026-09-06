@@ -1,0 +1,38 @@
+# Raw and intermediate market data are NOT redistributed. See DATA.md.
+data/
+*.parquet.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.spl
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Credentials — never commit
+.env
+*.pem
+*.key
+
+# exhibit build output
+exhibits/output/

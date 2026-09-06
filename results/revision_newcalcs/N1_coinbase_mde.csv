@@ -1,0 +1,2 @@
+spec,coef,pct_effect,se,pval,mde_log_80pct,mde_pct_80pct,gemini_point_pct,note
+"coinbase_only turnover, BTC approval",0.11917746990654803,12.656983279136934,0.11651063631672746,0.3064023451660116,0.32641447651462396,38.59897100234184,36.97812658564599,test can only detect effects >= MDE at 80% power; MDE ~ the Gemini estimate
